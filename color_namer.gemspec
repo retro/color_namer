@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.md",
      "Rakefile",
      "VERSION",
+     "color_namer.gemspec",
      "lib/color_namer.rb",
      "lib/color_namer/color_names.rb",
      "spec/color_namer_spec.rb",
