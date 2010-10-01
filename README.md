@@ -15,7 +15,7 @@ ColorNamer is a gem that allows you to name color from RGB value or from HTML ha
 
 # Dependencies
   
-  Color gem http://github.com/halostatue/color
+  [Color gem](http://github.com/halostatue/color)
 
 ## Note on Patches/Pull Requests
  
