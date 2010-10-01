@@ -10,8 +10,8 @@ module ColorNamer
     end
     
     def name_from_rgb(*rgb)
-      rgb = rgb[0].split(',').map{ |v| v.strip } if rgb.size == 1
-      raise ArgumentError, "Wrong format of RGB value. Use 'r,g,b' or [r,g,b]" if rgb.size < 3
+      rgb = rgb[0].split(',').map(&:strip) if rgb.size == 1
+      raise ArgumentError, "Wrong format of RGB value. Use 'r,g,b' or r,g,b" if rgb.size < 3
       rgb.map!(&:to_i)
       color = Color::RGB.new(rgb[0], rgb[1], rgb[2])
       name(color)
